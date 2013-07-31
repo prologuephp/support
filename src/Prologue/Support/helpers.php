@@ -27,3 +27,19 @@ if ( ! function_exists('is_true'))
 		return $value === true;
 	}
 }
+
+if ( ! function_exists('last_key'))
+{
+	/**
+	 * Get the last key from an array.
+	 *
+	 * @param  array  $array
+	 * @return mixed
+	 */
+	function last_key($array)
+	{
+		end($array);
+
+		return key($array);
+	}
+}

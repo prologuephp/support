@@ -13,7 +13,7 @@ class MessageBagTest extends PHPUnit_Framework_TestCase {
 
 		$messages = $bag->get('error');
 
-		$this->assertEquals(array('foo' => 'bar'), $messages[0]);
+		$this->assertSame(array('foo' => 'bar'), $messages[0]);
 	}
 
 	public function testAddMessageBag()

@@ -26,7 +26,7 @@ class HelpersTest extends PHPUnit_Framework_TestCase {
 	{
 		$data = array('foo' => 'bar', 'baz' => 'foz');
 
-		$this->assertEquals('baz', last_key($data));
+		$this->assertSame('baz', last_key($data));
 	}
 
 }

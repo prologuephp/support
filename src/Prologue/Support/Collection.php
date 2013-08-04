@@ -5,28 +5,6 @@ use Illuminate\Support\Collection as BaseCollection;
 class Collection extends BaseCollection {
 
 	/**
-	 * Take the first {$limit} items.
-	 *
-	 * @param  int  $limit
-	 * @return \Prologue\Support\Collection
-	 */
-	public function take($limit)
-	{
-		return $this->slice(0, $limit);
-	}
-
-	/**
-	 * Take the last {$limit} items.
-	 *
-	 * @param  int  $limit
-	 * @return \Prologue\Support\Collection
-	 */
-	public function takeLast($limit)
-	{
-		return $this->slice(-$limit, $limit);
-	}
-
-	/**
 	 * Tries to filter items by a key/value pair.
 	 *
 	 * @param  string  $key

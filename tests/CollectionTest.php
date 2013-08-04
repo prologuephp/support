@@ -22,6 +22,11 @@ class CollectionTest extends PHPUnit_Framework_TestCase {
 		);
 	}
 
+	protected function getCollection()
+	{
+		return new Collection($this->getTestData());
+	}
+
 	public function testFilterBy()
 	{
 		$expected = array(
@@ -31,9 +36,9 @@ class CollectionTest extends PHPUnit_Framework_TestCase {
 			),
 		);
 
-		$collection = new Collection($this->getTestData());
-
-		$items = $collection->filterBy('age', 20)->all();
+		$items = $this->getCollection()
+		              ->filterBy('age', 20)
+		              ->all();
 
 		$this->assertSame($expected, $items);
 	}
@@ -55,9 +60,9 @@ class CollectionTest extends PHPUnit_Framework_TestCase {
 			),
 		);
 
-		$collection = new Collection($this->getTestData());
-
-		$items = $collection->orderBy('age')->all();
+		$items = $this->getCollection()
+		              ->orderBy('age')
+		              ->all();
 
 		$this->assertSame($expected, $items);
 	}
@@ -79,9 +84,9 @@ class CollectionTest extends PHPUnit_Framework_TestCase {
 			),
 		);
 
-		$collection = new Collection($this->getTestData());
-
-		$items = $collection->orderBy('name')->all();
+		$items = $this->getCollection()
+		              ->orderBy('name')
+		              ->all();
 
 		$this->assertSame($expected, $items);
 	}
@@ -103,9 +108,9 @@ class CollectionTest extends PHPUnit_Framework_TestCase {
 			),
 		);
 
-		$collection = new Collection($this->getTestData());
-
-		$items = $collection->orderBy('age', 'desc')->all();
+		$items = $this->getCollection()
+		              ->orderBy('age', 'desc')
+		              ->all();
 
 		$this->assertSame($expected, $items);
 	}

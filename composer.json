@@ -1,6 +1,6 @@
 {
     "name": "prologue/support",
-    "description": "Prologue\\Support is an extension for Illuminate\\Support",
+    "description": "Prologue Support is an extension for Illuminate Support",
     "homepage": "https://github.com/Prologue/Support",
     "license": "MIT",
     "keywords": ["support", "helpers", "laravel"],

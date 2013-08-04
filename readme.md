@@ -1,6 +1,6 @@
 # Prologue Support
 
-[![Latest Stable Version](https://poser.pugx.org/prologue/support/v/stable.png)](https://packagist.org/packages/support/alerts) [![Total Downloads](https://poser.pugx.org/prologue/support/downloads.png)](https://packagist.org/packages/prologue/support) [![Build Status](https://travis-ci.org/Prologue/Support.png)](https://travis-ci.org/Prologue/Support)
+[![Latest Stable Version](https://poser.pugx.org/prologue/support/v/stable.png)](https://packagist.org/packages/prologue/support) [![Total Downloads](https://poser.pugx.org/prologue/support/downloads.png)](https://packagist.org/packages/prologue/support) [![Build Status](https://travis-ci.org/Prologue/Support.png)](https://travis-ci.org/Prologue/Support)
 
 Prologue Support is an extension for [Illuminate Support](https://github.com/illuminate/support). It provides you with extra helper functionality for your application.
 

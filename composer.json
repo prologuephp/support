@@ -14,7 +14,10 @@
     "autoload": {
         "psr-0": {
             "Prologue\\Support": "src/"
-        }
+        },
+        "files": [
+            "src/Prologue/Support/helpers.php"
+        ]
     },
     "minimum-stability": "dev"
 }

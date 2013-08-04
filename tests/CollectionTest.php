@@ -35,7 +35,7 @@ class CollectionTest extends PHPUnit_Framework_TestCase {
 
 		$items = $collection->filterBy('age', 20)->all();
 
-		$this->assertEquals($expected, $items);
+		$this->assertSame($expected, $items);
 	}
 
 	public function testOrderByNumber()
@@ -59,7 +59,7 @@ class CollectionTest extends PHPUnit_Framework_TestCase {
 
 		$items = $collection->orderBy('age')->all();
 
-		$this->assertEquals($expected, $items);
+		$this->assertSame($expected, $items);
 	}
 
 	public function testOrderByString()
@@ -83,7 +83,31 @@ class CollectionTest extends PHPUnit_Framework_TestCase {
 
 		$items = $collection->orderBy('name')->all();
 
-		$this->assertEquals($expected, $items);
+		$this->assertSame($expected, $items);
+	}
+
+	public function testOrderByDescending()
+	{
+		$expected = array(
+			'foo' => array(
+				'name' => 'foo',
+				'age' => 21,
+			),
+			'bar' => array(
+				'name' => 'bar',
+				'age' => 20,
+			),
+			'baz' => array(
+				'name' => 'baz',
+				'age' => 9,
+			),
+		);
+
+		$collection = new Collection($this->getTestData());
+
+		$items = $collection->orderBy('age', 'desc')->all();
+
+		$this->assertSame($expected, $items);
 	}
 
 }

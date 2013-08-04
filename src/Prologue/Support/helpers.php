@@ -36,7 +36,7 @@ if ( ! function_exists('last_key'))
 	 * @param  array  $array
 	 * @return mixed
 	 */
-	function last_key($array)
+	function last_key(array $array)
 	{
 		end($array);
 

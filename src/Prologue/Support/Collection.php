@@ -1,4 +1,4 @@
-<?php namespace Prologue\Support\Collection;
+<?php namespace Prologue\Support;
 
 use Illuminate\Support\Collection as BaseCollection;
 
@@ -36,7 +36,7 @@ class Collection extends BaseCollection {
 
 			if ($valueA == $valueB) return 0;
 
-			return ($valueA < $valueB) ? 1 : -1;
+			return ($valueA < $valueB) ? -1 : 1;
 		});
 	}
 

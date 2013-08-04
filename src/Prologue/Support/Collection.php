@@ -40,7 +40,7 @@ class Collection extends BaseCollection {
 			$result = ($valueA < $valueB) ? -1 : 1;
 
 			// If the direction is descending, reverse the order.
-			return $direction === 'desc' ? -($result): $result;
+			return $direction === 'desc' ? -($result) : $result;
 		});
 	}
 

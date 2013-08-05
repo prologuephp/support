@@ -147,4 +147,4 @@ You view the changelog for this package [here](https://github.com/Prologue/Suppo
 
 ## License
 
-Phpconsole for Laravel is licensed under the [MIT License](https://github.com/Prologue/Phpconsole/blob/master/LICENSE.md).
+Prologue Support is licensed under the [MIT License](https://github.com/Prologue/Support/blob/master/LICENSE.md).

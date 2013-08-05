@@ -116,7 +116,7 @@ $bag->add('error', new Illuminate\Support\MessageBag);
 
 #### is_true($value)
 
-Determine is a value is true.
+Determine if a value is true.
 
 ```php
 $result = is_true(true) // true
@@ -125,7 +125,7 @@ $result = is_true(null) // false
 
 #### is_false($value)
 
-Determine is a value is false.
+Determine if a value is false.
 
 ```php
 $result = is_false(false) // true

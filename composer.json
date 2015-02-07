@@ -3,13 +3,13 @@
     "description": "Prologue Support is an extension for Illuminate Support",
     "homepage": "https://github.com/Prologue/Support",
     "license": "MIT",
-    "keywords": ["support", "helpers", "laravel"],
+    "keywords": ["support", "helpers", "laravel", "collection"],
     "authors": [
         {
             "name": "Dries Vints",
             "email": "dries.vints@gmail.com",
             "homepage": "http://driesvints.com",
-            "role": "Developer"
+            "role": "Maintainer"
         }
     ],
     "require": {

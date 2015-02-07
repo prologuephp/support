@@ -17,11 +17,11 @@
         "illuminate/support": "~4|~5"
     },
     "autoload": {
-        "psr-0": {
-            "Prologue\\Support": "src/"
+        "psr-4": {
+            "Prologue\\Support\\": "src/"
         },
         "files": [
-            "src/Prologue/Support/helpers.php"
+            "src/helpers.php"
         ]
     }
 }

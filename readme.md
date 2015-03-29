@@ -4,6 +4,8 @@
 [![Total Downloads](https://poser.pugx.org/prologue/support/downloads.png)](https://packagist.org/packages/prologue/support)
 [![Build Status](https://travis-ci.org/prologuephp/support.svg?branch=master)](https://travis-ci.org/prologuephp/support)
 
+> This package is now abandoned. No further development or bug fixes will happen.
+
 Prologue Support is an extension for [Illuminate Support](https://github.com/illuminate/support). It provides you with extra helper functionality for your application.
 
 Maintained by [Dries Vints](https://github.com/driesvints)  

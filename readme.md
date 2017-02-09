@@ -8,9 +8,7 @@
 
 Prologue Support is an extension for [Illuminate Support](https://github.com/illuminate/support). It provides you with extra helper functionality for your application.
 
-Maintained by [Dries Vints](https://github.com/driesvints)  
-[@driesvints](https://twitter.com/driesvints)  
-[driesvints.com](http://driesvints.com)  
+Maintained by [Cristian Tabacitu](https://github.com/tabacitu)
 
 ## Table of Contents
 
